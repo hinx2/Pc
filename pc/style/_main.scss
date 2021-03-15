@@ -1,0 +1,23 @@
+.main1{
+    display: grid;
+    grid-template-columns: (48em 70em);
+    grid-template-rows: 5vh 50vh 40vh;
+    background: radial-gradient(rgb(94, 94, 94), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    height: 95.5vh;
+}
+
+.main1text{
+    color: rgb(255, 255, 255);
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+}
+.img{
+    grid-row: 2;
+    background-image: url(/images/Bmw.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2em;
+    margin: 0em 1em;
+}
