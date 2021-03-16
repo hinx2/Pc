@@ -3,8 +3,12 @@
   margin: 0%;
 }
 
+body {
+  background: radial-gradient(#5e5e5e, black);
+}
+
 .navContainer {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .nav {
@@ -33,35 +37,43 @@
 }
 
 .main1 {
+  padding-top: 1em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 48em 70em;
-      grid-template-columns: 48em 70em;
-  -ms-grid-rows: 5vh 50vh 40vh;
-      grid-template-rows: 5vh 50vh 40vh;
-  background: radial-gradient(#5e5e5e, black);
+  -ms-grid-columns: 30vw 20vw 40vw;
+      grid-template-columns: 30vw 20vw 40vw;
+  -ms-grid-rows: 10vh 2vh 50vh 40vh;
+      grid-template-rows: 10vh 2vh 50vh 40vh;
   background-repeat: no-repeat;
   height: 95.5vh;
 }
 
-.main1text {
+.main1title {
   color: white;
   -ms-grid-column: 2;
   grid-column: 2;
-  -ms-grid-row: 2;
-  grid-row: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 5em;
+}
+
+.main1text {
+  color: white;
 }
 
 .img {
-  -ms-grid-row: 2;
-  grid-row: 2;
-  background-image: url(/images/Bmw.jpg);
-  background-size: cover;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  background-image: url(/images/Eclipse-Hero-1.webp);
+  background-size: 40vh;
+  background-repeat: no-repeat;
   background-position: center;
-  border-radius: 2em;
-  margin: 0em 1em;
 }
 /*# sourceMappingURL=style.css.map */

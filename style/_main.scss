@@ -1,23 +1,30 @@
 .main1{
+    padding-top: 1em;
     display: grid;
-    grid-template-columns: (48em 70em);
-    grid-template-rows: 5vh 50vh 40vh;
-    background: radial-gradient(rgb(94, 94, 94), rgb(0, 0, 0));
+    grid-template-columns: (30vw 20vw 40vw);
+    grid-template-rows: 10vh 2vh 50vh 40vh;
     background-repeat: no-repeat;
     height: 95.5vh;
 }
 
-.main1text{
+.main1title{
     color: rgb(255, 255, 255);
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
     align-self: center;
+    justify-self: center;
+    font-size: 5em;
+}
+
+.main1text{
+    color: white;
 }
 .img{
-    grid-row: 2;
-    background-image: url(/images/Bmw.jpg);
-    background-size: cover;
+    grid-row: 3;
+    grid-column: 2;
+    background-image: url(/images/Eclipse-Hero-1.webp);
+    background-size:40vh;
+    background-repeat: no-repeat;
     background-position: center;
-    border-radius: 2em;
-    margin: 0em 1em;
+    
 }
