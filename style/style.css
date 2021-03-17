@@ -3,12 +3,9 @@
   margin: 0%;
 }
 
-body {
-  background: radial-gradient(#5e5e5e, black);
-}
-
 .navContainer {
   background-color: rgba(0, 0, 0, 0);
+  position: relative;
 }
 
 .nav {
@@ -29,51 +26,69 @@ body {
 }
 
 .button:hover {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   color: black;
   -webkit-transition: 500ms;
   transition: 500ms;
   padding: 1vh 2.1vw;
 }
 
-.main1 {
-  padding-top: 1em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 30vw 20vw 40vw;
-      grid-template-columns: 30vw 20vw 40vw;
-  -ms-grid-rows: 10vh 2vh 50vh 40vh;
-      grid-template-rows: 10vh 2vh 50vh 40vh;
-  background-repeat: no-repeat;
-  height: 95.5vh;
+.video {
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
 }
 
-.main1title {
+.main1 {
+  position: fixed;
   color: white;
+  background: rgba(0, 0, 0, 0.2);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20vw 35vw 30vw 17vw;
+      grid-template-columns: 20vw 35vw 30vw 17vw;
+  -ms-grid-rows: 20vh 50vh 26vh;
+      grid-template-rows: 20vh 50vh 26vh;
+}
+
+.main1 .main1title {
+  font-size: 4em;
+  padding-left: 0.1em;
+}
+
+.main1 .main1text {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  padding: 18em 4em 0em 2em;
+}
+
+.main1 .main1image {
+  -ms-grid-row: 2;
+  grid-row: 2;
   -ms-grid-column: 2;
   grid-column: 2;
-  -ms-grid-row: 1;
-  grid-row: 1;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  font-size: 5em;
+  padding-top: 1em;
 }
 
-.main1text {
-  color: white;
+.main1 .main1image .img {
+  width: 30vw;
 }
 
-.img {
-  -ms-grid-row: 3;
-  grid-row: 3;
-  -ms-grid-column: 2;
-  grid-column: 2;
-  background-image: url(/images/Eclipse-Hero-1.webp);
-  background-size: 40vh;
-  background-repeat: no-repeat;
-  background-position: center;
+.main1sidetext {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 23em;
 }
 /*# sourceMappingURL=style.css.map */
