@@ -17,6 +17,7 @@
 
         .main1{
             height: 100vh;
+            width: 100%;
             position: absolute;
             background-color: rgba(14, 14, 14, 0.5);
             color: white;
@@ -57,11 +58,15 @@
 }
 
 
-.main2{
+.main2container1{
     height: 100vh;
     display: flex;
-    .main2text{
+    .main2title{
         width: 100%;
+        background-color: gray;
+    }
+
+    .main2text{
         background-color: gray;
     }
     .main2image{

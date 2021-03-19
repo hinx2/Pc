@@ -38,7 +38,7 @@
   color: black;
   -webkit-transition: 900ms;
   transition: 900ms;
-  padding: 1vh 4.1vw;
+  padding: 1vh 4.4vw;
 }
 
 .mainContainer {
@@ -65,6 +65,7 @@
 
 .mainContainer .main1 {
   height: 100vh;
+  width: 100%;
   position: absolute;
   background-color: rgba(14, 14, 14, 0.5);
   color: white;
@@ -117,23 +118,27 @@
   font-size: 1.2em;
 }
 
-.main2 {
+.main2container1 {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main2 .main2text {
+.main2container1 .main2title {
   width: 100%;
   background-color: gray;
 }
 
-.main2 .main2image {
+.main2container1 .main2text {
+  background-color: gray;
+}
+
+.main2container1 .main2image {
   width: 51%;
 }
 
-.main2 .main2image .image2 {
+.main2container1 .main2image .image2 {
   height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
