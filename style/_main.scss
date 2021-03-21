@@ -57,22 +57,27 @@
         }
 }
 
-
-.main2container1{
+.main2{
     height: 100vh;
     display: flex;
-    .main2title{
-        width: 100%;
-        background-color: gray;
-    }
-
-    .main2text{
-        background-color: gray;
-    }
-    .main2image{
-        width: 51%;
+    .main2container1{
+        width: 52%;
         .image2{
             height: 100%;
+        }
+    }
+
+    .main2container2{
+        width: 48%;
+        .main2title{
+            padding: 35vh 0vw 0vh 0vw;
+            text-align: center;
+            font-size: 3em;
+        }
+        .main2text{
+            padding: 1vh 12vw 0vh 12vw;
+            font-size: 1.3em;
+            text-align: center;
         }
     }
 }

@@ -1,7 +1,12 @@
 * {
   padding: 0%;
   margin: 0%;
+  color: white;
   scrollbar-color: #1a1818 #282828;
+}
+
+body {
+  background-color: #272727;
 }
 
 .navContainer {
@@ -118,27 +123,34 @@
   font-size: 1.2em;
 }
 
-.main2container1 {
+.main2 {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main2container1 .main2title {
-  width: 100%;
-  background-color: gray;
+.main2 .main2container1 {
+  width: 52%;
 }
 
-.main2container1 .main2text {
-  background-color: gray;
-}
-
-.main2container1 .main2image {
-  width: 51%;
-}
-
-.main2container1 .main2image .image2 {
+.main2 .main2container1 .image2 {
   height: 100%;
+}
+
+.main2 .main2container2 {
+  width: 48%;
+}
+
+.main2 .main2container2 .main2title {
+  padding: 35vh 0vw 0vh 0vw;
+  text-align: center;
+  font-size: 3em;
+}
+
+.main2 .main2container2 .main2text {
+  padding: 1vh 12vw 0vh 12vw;
+  font-size: 1.3em;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
