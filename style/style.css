@@ -31,7 +31,6 @@ body {
 }
 
 .button {
-  color: white;
   text-decoration: none;
   padding: 1vh 4vw;
   border-radius: 1em;
@@ -44,6 +43,10 @@ body {
   -webkit-transition: 900ms;
   transition: 900ms;
   padding: 1vh 4.4vw;
+}
+
+.text {
+  font-size: 1.4em;
 }
 
 .mainContainer {
@@ -73,7 +76,6 @@ body {
   width: 100%;
   position: absolute;
   background-color: rgba(14, 14, 14, 0.5);
-  color: white;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 20vw 34vw 45vw;
@@ -91,13 +93,12 @@ body {
   font-size: 5em;
 }
 
-.mainContainer .main1 .main1text {
+.mainContainer .main1 #main1text {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 2;
   grid-row: 2;
   padding: 30vh 25vw 4em 0em;
-  font-size: 1.4em;
 }
 
 .mainContainer .main1 .main1image {
@@ -112,19 +113,18 @@ body {
   height: 75vh;
 }
 
-.mainContainer .main1 .main1sidetext {
+.mainContainer .main1 #main1sidetext {
   -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-row: 2;
   grid-row: 2;
-  padding: 50vh 2vw 0vh 4vw;
+  padding: 55vh 0vw 0vh 2vw;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  font-size: 1.2em;
 }
 
 .main2 {
-  height: 100vh;
+  height: 105vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,7 +135,7 @@ body {
 }
 
 .main2 .main2container1 .image2 {
-  height: 102vh;
+  height: 105vh;
 }
 
 .main2 .main2container2 {
@@ -148,9 +148,38 @@ body {
   font-size: 3em;
 }
 
-.main2 .main2container2 .main2text {
+.main2 .main2container2 #main2text {
   padding: 1vh 12vw 0vh 12vw;
-  font-size: 1.3em;
   text-align: center;
+}
+
+.main3 {
+  height: 108vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main3 .main3container1 {
+  width: 46%;
+}
+
+.main3 .main3container1 #main3title {
+  padding: 35vh 0vw 0vh 0vw;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.main3 .main3container1 #main3text {
+  padding: 2vh 12vw;
+  text-align: center;
+}
+
+.main3 .main3container2 {
+  width: 54%;
+}
+
+.main3 .main3container2 .image3 {
+  height: 108vh;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,6 @@
+.text{
+    font-size: 1.4em; 
+}
 .mainContainer{
     position: relative;
     height: 100vh;
@@ -20,7 +23,6 @@
             width: 100%;
             position: absolute;
             background-color: rgba(14, 14, 14, 0.5);
-            color: white;
             display: grid;
             grid-template-columns: 20vw 34vw 45vw;
             grid-template-rows: 15vh 75vh 10vh;
@@ -32,11 +34,10 @@
                 font-size: 5em;
             }
 
-            .main1text{
+            #main1text{
                 grid-column: 3;
                 grid-row: 2;
                 padding: 30vh 25vw 4em 0em;
-                font-size: 1.4em;
             }
 
             .main1image{
@@ -47,23 +48,22 @@
                     height: 75vh;
                 }
             }
-            .main1sidetext{
+            #main1sidetext{
                 grid-column: 1;
                 grid-row: 2;
-                padding: 50vh 2vw 0vh 4vw;
+                padding: 55vh 0vw 0vh 2vw;
                 transform: rotate(-90deg);
-                font-size: 1.2em;
             }
         }
 }
 
 .main2{
-    height: 100vh;
+    height: 105vh;
     display: flex;
     .main2container1{
         width: 52%;
         .image2{
-            height: 102vh;
+            height: 105vh;
         }
     }
 
@@ -74,10 +74,33 @@
             text-align: center;
             font-size: 3em;
         }
-        .main2text{
+        #main2text{
             padding: 1vh 12vw 0vh 12vw;
-            font-size: 1.3em;
+
             text-align: center;
+        }
+    }
+}
+
+.main3{
+    height: 108vh;
+    display: flex;
+    .main3container1{
+        width: 46%;
+        #main3title{
+            padding: 35vh 0vw 0vh 0vw;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        #main3text{
+            padding: 2vh 12vw;
+            text-align: center;
+        }
+    }
+    .main3container2{
+        width: 54%;
+        .image3{
+            height: 108vh;
         }
     }
 }
