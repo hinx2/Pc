@@ -1,0 +1,15 @@
+.end{
+    text-align: center;
+    padding: 4em;
+    font-size: 0.9em;
+    color: darkgray;
+    background-color: rgb(22, 22, 22);
+    .endButton{
+        color: darkgray;
+        text-decoration: none;
+    }
+    .endButton:hover{
+        color: white;
+        transition: 800ms;
+    }
+}
