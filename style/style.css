@@ -198,7 +198,7 @@ body {
 
 .end .endButton:hover {
   color: white;
-  -webkit-transition: 800ms;
-  transition: 800ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 /*# sourceMappingURL=style.css.map */
