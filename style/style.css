@@ -154,14 +154,14 @@ body {
 }
 
 .main3 {
-  height: 104vh;
+  height: 106vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .main3 .main3container1 {
-  width: 46%;
+  width: 47%;
 }
 
 .main3 .main3container1 #main3title {
@@ -176,11 +176,11 @@ body {
 }
 
 .main3 .main3container2 {
-  width: 50%;
+  width: 53;
 }
 
 .main3 .main3container2 .image3 {
-  height: 104vh;
+  height: 106vh;
 }
 
 .end {
