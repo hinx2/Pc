@@ -1,11 +1,13 @@
 .text{
     font-size: 1.4em; 
 }
-.mainContainer{
-    position: relative;
-    height: 100vh;
-    display: flex;
-    
+.image{
+    height: 105vh;
+    width: 100%;
+}
+
+
+
         .videoContainer{
             width: 100vw;
             right: 0%;
@@ -21,10 +23,10 @@
         .main1{
             height: 100vh;
             width: 100%;
-            position: absolute;
+            position: relative;
             background-color: rgba(14, 14, 14, 0.5);
             display: grid;
-            grid-template-columns: 20vw 34vw 45vw;
+            grid-template-columns: 20% 34% 46%;
             grid-template-rows: 15vh 75vh 10vh;
 
             .main1title{
@@ -45,7 +47,8 @@
                 grid-row: 2;
                 padding: 5vh 0vw 20vh 0vw;
                 .image1{
-                    height: 75vh;
+                    height: 150%;
+                    object-fit: cover;
                 }
             }
             #main1sidetext{
@@ -55,16 +58,14 @@
                 transform: rotate(-90deg);
             }
         }
-}
 
 .main2{
     height: 105vh;
     display: flex;
+    max-width: 100;
     .main2container1{
         width: 52%;
-        .image2{
-            height: 105vh;
-        }
+        height: auto;
     }
 
     .main2container2{
@@ -83,10 +84,11 @@
 }
 
 .main3{
-    height: 106vh;
+    height: 105vh;
+    max-width: 100%;
     display: flex;
     .main3container1{
-        width: 47%;
+        width: 46%;
         #main3title{
             padding: 35vh 0vw 0vh 0vw;
             text-align: center;
@@ -98,9 +100,6 @@
         }
     }
     .main3container2{
-        width: 53;
-        .image3{
-            height: 106vh;
-        }
+        width: 54%;
     }
 }
