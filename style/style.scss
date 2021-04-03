@@ -22,14 +22,26 @@ body{
         }
         .image1{
             width: 100%;
-            object-fit: contain;
+            object-fit: cover;
         }
     }
-
-    .main3container1{
-        #main3text{
-            padding: 0em
+    .main3{
+        flex-direction:column-reverse;
+        .main3container1{
+            width: 100%;
+            #main3title{
+                padding: 5%;
+                font-size: 1.3em;
+            }
+            #main3text{
+                padding: 5%;
+                font-size: 1em;
+            }
         }
+        .main3container2{
+            width: 100%
+        }
+
     }
 }
 @import "nav";

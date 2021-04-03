@@ -25,11 +25,28 @@ body {
   }
   .main1 .image1 {
     width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-  .main3container1 #main3text {
-    padding: 0em;
+  .main3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .main3 .main3container1 {
+    width: 100%;
+  }
+  .main3 .main3container1 #main3title {
+    padding: 5%;
+    font-size: 1.3em;
+  }
+  .main3 .main3container1 #main3text {
+    padding: 5%;
+    font-size: 1em;
+  }
+  .main3 .main3container2 {
+    width: 100%;
   }
 }
 
