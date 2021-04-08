@@ -56,7 +56,6 @@ body{
         
     }
     body .main2{
-        height:100vh;
         flex-direction: column;
         .main2container1{
             width: 100%;
@@ -76,11 +75,11 @@ body{
     }
 
     body .main3{
-        height: 95vh;
+        height: 100vh;
         flex-direction: column;
         .main3container1{
             width: 100%;
-            padding-bottom: 15vh;
+            padding-bottom: 20vh;
             #main3title{
                 padding: 0%;
             }

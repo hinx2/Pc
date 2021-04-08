@@ -62,7 +62,6 @@ body {
     margin-right: auto;
   }
   body .main2 {
-    height: 100vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -83,7 +82,7 @@ body {
     text-align: center;
   }
   body .main3 {
-    height: 95vh;
+    height: 100vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -91,7 +90,7 @@ body {
   }
   body .main3 .main3container1 {
     width: 100%;
-    padding-bottom: 15vh;
+    padding-bottom: 20vh;
   }
   body .main3 .main3container1 #main3title {
     padding: 0%;
@@ -142,8 +141,8 @@ body {
 }
 
 .image {
-  height: 105vh;
   width: 100%;
+  height: 105vh;
 }
 
 .videoContainer .video {
