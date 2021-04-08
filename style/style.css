@@ -90,13 +90,14 @@ body {
   }
   body .main3 .main3container1 {
     width: 100%;
-    padding-bottom: 20vh;
   }
   body .main3 .main3container1 #main3title {
     padding: 0%;
   }
   body .main3 .main3container2 {
     width: 100%;
+    margin-top: auto;
+    margin-bottom: 0vh;
   }
 }
 

@@ -79,13 +79,14 @@ body{
         flex-direction: column;
         .main3container1{
             width: 100%;
-            padding-bottom: 20vh;
             #main3title{
                 padding: 0%;
             }
         }
         .main3container2{
             width: 100%;
+            margin-top: auto;
+            margin-bottom: 0vh;
         }
     }
 }
