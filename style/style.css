@@ -19,6 +19,9 @@ body {
     text-align: center;
     font-size: 1.7em;
   }
+  body .image {
+    height: 50vh;
+  }
   body .main1 {
     display: -ms-grid;
     display: grid;
@@ -57,6 +60,44 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  body .main2 {
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main2 .main2container1 {
+    width: 100%;
+    height: 15vh;
+  }
+  body .main2 .main2container2 {
+    width: 100%;
+  }
+  body .main2 .main2container2 .main2title {
+    text-align: center;
+    font-size: 5em;
+  }
+  body .main2 .main2container2 #main2text {
+    text-align: center;
+  }
+  body .main3 {
+    height: 95vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main3 .main3container1 {
+    width: 100%;
+    padding-bottom: 15vh;
+  }
+  body .main3 .main3container1 #main3title {
+    padding: 0%;
+  }
+  body .main3 .main3container2 {
+    width: 100%;
   }
 }
 
@@ -103,12 +144,6 @@ body {
 .image {
   height: 105vh;
   width: 100%;
-}
-
-.videoContainer {
-  width: 100vw;
-  right: 0%;
-  bottom: 0%;
 }
 
 .videoContainer .video {
@@ -183,7 +218,6 @@ body {
 
 .main2 .main2container1 {
   width: 52%;
-  height: auto;
 }
 
 .main2 .main2container2 {
