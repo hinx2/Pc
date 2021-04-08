@@ -12,24 +12,44 @@ body{
 
 @media screen and (max-width: 1000px) {
     html{
-        font-size: 67%;
+        font-size: 66%;
     }
-    .main1{
-        grid-template-columns: repeat(10% 1fr 10%);
-        #main1text{
-            padding: 0vh 0vw;
-            text-align: center;
-        }
-        .image1{
-            width: 100%;
-            object-fit: contain;
-        }
+    body .text{
+        text-align: center;
+        font-size: 1.7em;
     }
 
-    .main3container1{
-        #main3text{
-            padding: 0em
+    body .main1{
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows:7vh 50vh 43vh;
+        .main1title{
+            text-align: center;
+            grid-column: 2;
+            grid-row: 3;
+            padding: 2vh 0vw 0vh 0vw;
+            font-size: 5em;
         }
+        #main1text{
+            grid-column: 2;
+            grid-row: 3;
+            padding: 12vh 0vw 4vh 0vw;
+        }
+        #main1sidetext{
+            grid-column: 2;
+            grid-row: 2;
+            padding: 3vh 0vw 0vh 2vw;
+            transform: rotate(0deg);
+        }
+        .main1image{
+            .image1{
+                height: 180%;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
     }
 }
 @import "nav";
