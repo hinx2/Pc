@@ -3,14 +3,13 @@
     margin: 0%;
     color: white;
     scrollbar-color: rgb(26, 24, 24) rgb(40, 40 ,40);    
-    box-sizing: border-box;    
 }
 
 body{
     background-color: rgb(39, 39, 39)
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     html{
         font-size: 66%;
     }
@@ -20,13 +19,14 @@ body{
     }
 
     body .image{
+        width: 100vw;
         height: 50vh;
     }
 
     body .main1{
         display: grid;
         grid-template-columns: 5% 90% 5%;
-        grid-template-rows:7vh 50vh 43vh;
+        grid-template-rows:7vh 50vh 40vh;
         .main1title{
             text-align: center;
             grid-column: 2;
@@ -42,11 +42,14 @@ body{
         #main1sidetext{
             grid-column: 2;
             grid-row: 2;
-            padding: 3vh 0vw 0vh 2vw;
+            padding: 3vh 0vw 0vh 13vw;
             transform: rotate(0deg);
+            margin: 0%;
         }
         .main1image{
             .image1{
+                object-fit: contain;
+                width: 70%;
                 height: 180%;
                 display:block;
                 margin-left: auto;
@@ -64,6 +67,7 @@ body{
     
         .main2container2{
             width: 100%;
+            margin-top: 20%;
             .main2title{
                 text-align: center;
                 font-size: 5em;
@@ -75,19 +79,34 @@ body{
     }
 
     body .main3{
-        height: 100vh;
-        flex-direction: column;
+        flex-direction: column-reverse;
         .main3container1{
             width: 100%;
+            margin-top: 20%;
+            margin-bottom: auto;
             #main3title{
                 padding: 0%;
             }
         }
         .main3container2{
             width: 100%;
-            margin-top: auto;
-            margin-bottom: 0vh;
         }
+    }
+}
+
+@media screen and  (max-width: 1000px) and (min-width:600px) {
+    body .main1{
+            .main1image{
+                .image1{
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 30vw;
+                    height: auto
+                }
+            }
+            #main1sidetext{
+               padding-bottom: 5vw;
+            }
     }
 }
 @import "nav";

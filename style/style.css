@@ -3,15 +3,13 @@
   margin: 0%;
   color: white;
   scrollbar-color: #1a1818 #282828;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 body {
   background-color: #272727;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 66%;
   }
@@ -20,6 +18,7 @@ body {
     font-size: 1.7em;
   }
   body .image {
+    width: 100vw;
     height: 50vh;
   }
   body .main1 {
@@ -27,8 +26,8 @@ body {
     display: grid;
     -ms-grid-columns: 5% 90% 5%;
         grid-template-columns: 5% 90% 5%;
-    -ms-grid-rows: 7vh 50vh 43vh;
-        grid-template-rows: 7vh 50vh 43vh;
+    -ms-grid-rows: 7vh 50vh 40vh;
+        grid-template-rows: 7vh 50vh 40vh;
   }
   body .main1 .main1title {
     text-align: center;
@@ -51,11 +50,15 @@ body {
     grid-column: 2;
     -ms-grid-row: 2;
     grid-row: 2;
-    padding: 3vh 0vw 0vh 2vw;
+    padding: 3vh 0vw 0vh 13vw;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    margin: 0%;
   }
   body .main1 .main1image .image1 {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 70%;
     height: 180%;
     display: block;
     margin-left: auto;
@@ -73,6 +76,7 @@ body {
   }
   body .main2 .main2container2 {
     width: 100%;
+    margin-top: 20%;
   }
   body .main2 .main2container2 .main2title {
     text-align: center;
@@ -82,29 +86,40 @@ body {
     text-align: center;
   }
   body .main3 {
-    height: 100vh;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   body .main3 .main3container1 {
     width: 100%;
+    margin-top: 20%;
+    margin-bottom: auto;
   }
   body .main3 .main3container1 #main3title {
     padding: 0%;
   }
   body .main3 .main3container2 {
     width: 100%;
-    margin-top: auto;
-    margin-bottom: 0vh;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  body .main1 .main1image .image1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 30vw;
+    height: auto;
+  }
+  body .main1 #main1sidetext {
+    padding-bottom: 5vw;
   }
 }
 
 .navContainer {
+  background-color: rgba(0, 0, 0, 0);
   padding-top: 1vh;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   z-index: 2;
 }
@@ -123,18 +138,18 @@ body {
 }
 
 .button {
-  text-decoration: none;
-  padding: 1vh 4vw;
   border-radius: 1em;
   font-size: 1.7em;
+  padding: 1vh 4vw;
+  text-decoration: none;
 }
 
 .button:hover {
   background-color: rgba(255, 255, 255, 0.7);
   color: black;
+  padding: 1vh 4.2vw;
   -webkit-transition: 900ms;
   transition: 900ms;
-  padding: 1vh 4.2vw;
 }
 
 .text {
@@ -193,9 +208,10 @@ body {
 }
 
 .main1 .main1image .image1 {
+  width: 100%;
   height: 150%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .main1 #main1sidetext {
@@ -203,7 +219,11 @@ body {
   grid-column: 1;
   -ms-grid-row: 2;
   grid-row: 2;
-  padding: 55vh 0vw 0vh 2vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70%;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
