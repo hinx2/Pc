@@ -92,6 +92,9 @@ body{
             width: 100%;
         }
     }
+    body .end{
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and  (max-width: 1000px) and (min-width:600px) {
@@ -100,12 +103,13 @@ body{
                 .image1{
                     margin-right: auto;
                     margin-left: auto;
-                    width: 30vw;
+                    width: 40vw;
                     height: auto
                 }
             }
             #main1sidetext{
                padding-bottom: 5vw;
+               transform: rotate(0deg);
             }
     }
 }

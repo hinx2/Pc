@@ -102,17 +102,22 @@ body {
   body .main3 .main3container2 {
     width: 100%;
   }
+  body .end {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 600px) {
   body .main1 .main1image .image1 {
     margin-right: auto;
     margin-left: auto;
-    width: 30vw;
+    width: 40vw;
     height: auto;
   }
   body .main1 #main1sidetext {
     padding-bottom: 5vw;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
@@ -251,7 +256,7 @@ body {
 }
 
 .main2 .main2container2 #main2text {
-  padding: 1vh 12vw 0vh 12vw;
+  padding: 0vh 10vw;
   text-align: center;
 }
 
