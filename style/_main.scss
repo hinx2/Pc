@@ -29,8 +29,8 @@
             .main1title{
                 grid-column: 3;
                 grid-row: 2;
-                padding: 21vh 25vw 4em 0em;
-                font-size: 5em;
+                padding: 23vh 25vw 4em 0em;
+                font-size: 4em;
             }
 
             #main1text{
@@ -53,7 +53,7 @@
                 grid-column: 1;
                 grid-row: 2;
                 margin-right: 15vw;
-                margin-left: 15vw;
+                margin-left: 14vw;
                 margin-top: auto;
                 margin-bottom: auto;
                 width: 70%;
@@ -66,11 +66,11 @@
     display: flex;
     max-width: 100;
     .main2container1{
-        width: 52%;
+        width: 50%;
     }
 
     .main2container2{
-        width: 48%;
+        width: 50%;
         .main2title{
             padding: 35vh 0vw 0vh 0vw;
             text-align: center;
@@ -88,7 +88,7 @@
     max-width: 100%;
     display: flex;
     .main3container1{
-        width: 46%;
+        width: 50%;
         #main3title{
             padding: 35vh 0vw 0vh 0vw;
             text-align: center;
@@ -100,6 +100,6 @@
         }
     }
     .main3container2{
-        width: 54%;
+        width: 50%;
     }
 }

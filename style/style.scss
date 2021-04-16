@@ -37,7 +37,7 @@ body{
         #main1text{
             grid-column: 2;
             grid-row: 3;
-            padding: 12vh 0vw 4vh 0vw;
+            padding: 12vh 0vw 20vh 0vw;
         }
         #main1sidetext{
             grid-column: 2;
@@ -97,20 +97,73 @@ body{
     }
 }
 
-@media screen and  (max-width: 1000px) and (min-width:600px) {
+@media screen and  (max-width: 1024px) and (min-width:600px) {
+    body .image{
+        width: 100vw;
+        height: 60vh;
+    }
     body .main1{
+        grid-template-columns: repeat(2, 50vw);
             .main1image{
+                grid-column: 1;
                 .image1{
                     margin-right: auto;
                     margin-left: auto;
-                    width: 40vw;
+                    width: 50vw;
                     height: auto
                 }
             }
+            .main1title{
+                text-align: center;
+                grid-column: 2;
+                grid-row: 2;
+                font-size: 5em;
+            }
+            #main1text{
+                grid-column: 2;
+                grid-row: 2;
+                padding: 1vh 3vw;
+                text-align: center;
+            }
             #main1sidetext{
                padding-bottom: 5vw;
+               grid-column: 2;
                transform: rotate(0deg);
             }
+    }
+    body .main2{
+        flex-direction: column;
+        .main2container1{
+            width: 100%;
+            height: 40vh;
+        }
+    
+        .main2container2{
+            width: 100%;
+            .main2title{
+                text-align: center;
+                font-size: 5em;
+            }
+            #main2text{
+                text-align: center;
+            }
+        }
+    }
+
+    body .main3{
+        flex-direction: column-reverse;
+        .main3container1{
+            width: 100%;
+            margin-top: 15%;
+            margin-bottom: auto;
+            #main3title{
+                padding: 0%;
+                font-size: 4em;
+            }
+        }
+        .main3container2{
+            width: 100%;
+        }
     }
 }
 @import "nav";
