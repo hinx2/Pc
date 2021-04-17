@@ -123,27 +123,32 @@ body {
   body .main1 .main1image .image1 {
     margin-right: auto;
     margin-left: auto;
-    width: 50vw;
+    width: 45vw;
     height: auto;
   }
   body .main1 .main1title {
-    text-align: center;
+    text-align: left;
     -ms-grid-column: 2;
     grid-column: 2;
     -ms-grid-row: 2;
     grid-row: 2;
-    font-size: 5em;
+    font-size: 4em;
   }
   body .main1 #main1text {
+    position: relative;
     -ms-grid-column: 2;
     grid-column: 2;
     -ms-grid-row: 2;
     grid-row: 2;
-    padding: 1vh 3vw;
-    text-align: center;
+    padding: 31vh 0vw;
+    text-align: left;
   }
   body .main1 #main1sidetext {
-    padding-bottom: 5vw;
+    text-align: left;
+    position: relative;
+    padding-top: 20vh;
+    margin: 0%;
+    height: 1em;
     -ms-grid-column: 2;
     grid-column: 2;
     -webkit-transform: rotate(0deg);

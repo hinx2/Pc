@@ -109,24 +109,29 @@ body{
                 .image1{
                     margin-right: auto;
                     margin-left: auto;
-                    width: 50vw;
+                    width: 45vw;
                     height: auto
                 }
             }
             .main1title{
-                text-align: center;
+                text-align: left;
                 grid-column: 2;
                 grid-row: 2;
-                font-size: 5em;
+                font-size: 4em;
             }
             #main1text{
+                position: relative;
                 grid-column: 2;
                 grid-row: 2;
-                padding: 1vh 3vw;
-                text-align: center;
+                padding: 31vh 0vw;
+                text-align: left;
             }
             #main1sidetext{
-               padding-bottom: 5vw;
+                text-align: left;
+                position: relative;
+               padding-top: 20vh;
+               margin: 0%;
+               height: 1em;
                grid-column: 2;
                transform: rotate(0deg);
             }
